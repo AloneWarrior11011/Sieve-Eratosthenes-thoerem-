@@ -5,7 +5,7 @@ public:
        // here we took a vector of size num + 1 so that it'll stores value from 0 to num and set it true initially 
        // initially assuming that all are primes number from 0 to num
        // but we have to ignored 0 and 1 as it's not prime number and it'll make some obstackles in future
-       vector<bool> prime(n+1, true);
+       vector<bool> prime(n+1, true);   // create boolean array [0...n]
 
        prime[0] = prime[1] = false;
        // then we have traverse a loop from 2 to less than num e.g num = 10 then we do from 2 to 9
